@@ -1,0 +1,97 @@
+/* ================= ENCABEZADO ================= */
+
+.header-container {
+
+    width: 100%;
+
+    display: flex;
+
+    justify-content: Space-between;  
+
+    align-items: center;
+
+    margin-bottom: 20px;
+
+    padding: 0 20px;
+
+}
+
+
+
+.header-img {
+
+    height: 80px;
+
+    object-fit: contain;
+
+}
+
+
+
+.header-title {
+
+    text-align: center;
+
+    margin: 0 auto;
+
+    Font-size: 32px;
+
+}
+
+
+
+/* ================= GENERAL / SCROLL ================= */
+
+HTML, body {
+
+    margin: 0;
+
+    padding: 0;
+
+    width: 100%;
+
+    height: 100%;
+
+    overflow-x: hidden; /* evita scroll horizontal */
+
+    overflow-y: auto;   /* permite scroll vertical */
+
+}
+
+
+
+#unity-container {
+
+    max-width: 100%;
+    max-height: 80%;
+    overflow: auto;
+
+}
+
+
+
+.unity-mobile {
+
+    width: 100% !important;
+
+    height: auto !important;
+
+    max-width: 100%;
+
+    display: block;
+
+}
+
+
+
+/* Texto y créditos */
+
+.texto-informativo, .créditos-container {
+
+    padding: 20px;
+
+    max-width: 100%;
+
+    box-sizing: border-box;
+
+}
